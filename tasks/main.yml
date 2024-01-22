@@ -7,7 +7,7 @@
 - name: Template configuration files
   template:
     src: "{{item}}.j2"
-    dest: "/tmp/uronode.{{item}}"
+    dest: "/etc/ax25/uronode.{{item}}"
   with_items:
     - conf
     - motd
