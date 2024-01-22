@@ -1,0 +1,14 @@
+---
+- name: Install uronode package
+  apt:
+    name: uronode
+    state: present
+  
+- name: Template configuration files
+  template:
+    src: "{{item}}.j2"
+    dest: "/tmp/uronode.{{item}}"
+  with_items:
+    - conf
+    - motd
+    - info

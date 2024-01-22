@@ -1,0 +1,13 @@
+---
+uronode_idletimeout: 900
+uronode_conntimeout: 600
+uronode_hostname: ALIAS:N0CALL-2
+uronode_nodeid:	ALIAS:N0CALL-2
+uronode_flexid:	ALIAS#N0CALL-3
+uronode_nrport:	netrom
+uronode_loglevel: 3
+uronode_escapechar: ^T
+uronode_motd: 
+ - "Linux Node"
+ - "Type \"?\" for commands or H <command> for more detailed help on a command."
+uronode_info: "uronode packet shell"
